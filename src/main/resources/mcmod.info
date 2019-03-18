@@ -1,0 +1,11 @@
+[
+{
+  "modid": "thebappystick",
+  "name": "The Bappy Stick",
+  "description": "Stick whom bap",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["Una Thompson (unascribed)"],
+  "credits": "Commissioned by hoodie"
+}
+]

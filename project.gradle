@@ -1,0 +1,35 @@
+// See https://github.com/elytra/Skeleton/wiki for what all these values mean
+
+ext {
+	group = 'com.unascribed'
+	projectName = 'TheBappyStick'
+
+	useElytraVersionFormat = true
+	version = '1'
+
+	concreteVersion = '0.4.45'
+	concreteModules = [ ]
+
+	coremod = null
+	miniVersion = null
+
+	language = 'java'
+
+	forge = '1.12.2-14.23.5.2814'
+	mappings = 'stable_39'
+
+	enforceLicenseHeaders = false
+
+	verbose = false
+}
+
+if (!ext.early) {
+repositories {
+	// the skeleton already defines mavenCentral, jcenter, and the Elytra repo
+	// will also have Shadowfacts' maven if the language is set to kotlin
+}
+
+dependencies {
+
+}
+}
