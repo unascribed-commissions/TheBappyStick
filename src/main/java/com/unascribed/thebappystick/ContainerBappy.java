@@ -217,7 +217,7 @@ public class ContainerBappy extends Container {
 
 	private boolean isValidTalisman(ItemStack stack, int excludingSlot) {
 		EnchantmentData ed = getEnchantmentData(stack);
-		if (ed == null) return true;
+		if (ed == null) return false;
 		for (int i = 0; i < 18; i++) {
 			if (i == excludingSlot) continue;
 			ItemStack existing = TheBappyStick.THEBAPPYSTICK.getTalisman(getItem(), i);
